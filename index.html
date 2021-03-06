@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let tienVay = prompt("Nhập số tiền vay:");
+        let laiSuat = prompt("Nhập lãi suất:");
+        let soNam = prompt("Nhập số năm:");
+
+        tienVay = Number(tienVay);
+        laiSuat = Number(laiSuat);
+        soNam = Number(soNam);
+        let tongTien=((tienVay * laiSuat) / 100) * soNam + tienVay;
+
+        alert("Số tiền phải trả: "+ tongTien);
+    </script>
+</body>
+</html>
